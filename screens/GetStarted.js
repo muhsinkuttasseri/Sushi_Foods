@@ -3,14 +3,12 @@ import {
 	Text,
 	SafeAreaView,
 	Image,
-	Button,
 	StyleSheet,
 	Pressable,
 } from "react-native";
 import React from "react";
 
 export default function GetStarted(props) {
-	const { onPress, title = "Save" } = props;
 	return (
 		<SafeAreaView style={{ backgroundColor: "black", flex: 1 }}>
 			<Image
